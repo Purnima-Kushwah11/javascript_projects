@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    background-color:rgb(65, 114, 115);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.calender{
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    width: 330px;
+    
+    
+
+}
+.right{
+    background-color:rgb(116, 199, 199);
+    height: 330px;
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   border-radius: 0 20px 0 0;
+}
+.left{
+    background-color: white;
+    height: 330px;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 0px 0 0;
+
+   
+}
+#date,#year{
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(24, 40, 40);
+}
+#day,#month{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+

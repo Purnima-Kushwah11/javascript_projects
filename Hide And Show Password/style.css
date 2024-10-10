@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(11, 11, 74);
+    
+
+}
+.show{
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+  
+}
+#img{
+    height: 20px;
+    width: 20px;
+}
+
+#btn{
+    position: absolute;
+    right: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 7px;
+ 
+}
+
+#input{
+    border: none;
+    outline: none;
+    padding: 7px;
+
+
+}

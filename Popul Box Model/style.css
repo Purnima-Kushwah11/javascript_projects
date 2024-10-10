@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.btn-box{
+    background-color: rgb(1, 38, 1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    border-radius: 35px;
+    color:rgb(1, 39, 1);
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 20px 45px;
+    font-size: 30px;
+    font-weight: 500px;
+    transition: all 0.5s;
+
+}
+#submit:hover{
+    cursor: pointer;
+    border-color: rgb(10, 167, 10);
+    font-weight: 700px;
+    font-size: 35px;
+}
+.popup-box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(1, 39, 1);
+    
+}
+.thanku-box{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   padding: 70px;
+   border-radius: 10px;
+   height: 300px;
+   gap: 20px;
+   position: relative;
+}
+.img{
+    position: absolute;
+    top: -80px;
+
+    height: 130px;
+    width: 160px;
+}
+#ok{
+    border-radius: 15px;
+    color:rgb(1, 41, 1);
+    outline: none;
+    border: none;
+    background-color: rgb(48, 211, 48);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.5s;
+    width: 100%;
+
+}
+#ok:hover{
+    cursor: pointer;
+    border-color: rgb(10, 167, 10);
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+
+

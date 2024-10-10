@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 class="heading" style="color: aliceblue;">Image Slider</h1>
+    </div>
+    <div class="slide-container">
+
+        <div class="slide">
+            <img src="image1.jpg" class="img" alt="">
+            <div class="caption" style="color: aliceblue;">Dubai </div>
+        </div>
+
+         <div class="slide">
+            <img src="image2.jpg" alt="" class="img">
+            <div class="caption" style="color: aliceblue;">Ashok Beach </div>
+        </div>
+
+        <div class="slide">
+            <img src="image3.jpg" alt="" class="img">
+            <div class="caption" style="color: aliceblue;">Kashmir </div>
+       </div>
+
+        <div class="slide">
+            <img src="image4.jpg" alt="" class="img">
+            <div class="caption" style="color: aliceblue;">Mussoorie</div>
+       </div> 
+
+
+    
+        <img src="arrow (1).png" alt="" id="leftimg" onClick="controller(-1)">
+        <img src="arrow (2).png" alt="" id="rightimg" onClick="controller(1)">
+    
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>

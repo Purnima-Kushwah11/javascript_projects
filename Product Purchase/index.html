@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="smallcontainer">
+            <div id="left">
+
+                <img src="blue-front.jpg" alt="" id="img">
+
+                <div class="buttoncontanier">
+                    <button id="btn1" class="btns" onClick="change()">
+
+                    </button>
+                    <button id="btn2" class="btns"onClick="change()">
+
+                    </button>
+                    <button id="btn3" class="btns"onClick="change()">
+
+                    </button>
+                </div>
+
+
+
+            </div>
+            <div id="right">
+                <div class="text">
+                    <h1>Casual T Shirt</h1>
+                    <h2>$ 15.00</h2>
+                    <h4 style="color: rgb(13, 216, 13);">30% OFF</h4>
+                    <p>
+                        Crafted from soft, breathable fabric, our t-shirts offer the perfect blend of style and comfort.
+
+                    </p>
+                </div>
+                <div class="btn">
+                    <table>
+                        <tr>
+                            <td>
+                                Size :
+                            </td>
+                            <td>
+                                <button class="circle" id="s">S</button>
+                                <button class="circle" id="m">M</button>
+                                <button class="circle" id="l">L</button>
+                                <button class="circle" id="xl">XL</button>
+                                <button class="circle" id="xxl">XXL</button>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Colors :
+                            </td>
+                            <td>
+
+                                <button class="rect" style="background-color: white;" id="white" onclick="changeImage('white')"></button>
+                                <button class="rect" style="background-color: rgb(86, 86, 199);" id="blue" onclick="changeImage('blue')"></button>
+                                <button class="rect" style="background-color: rgb(42, 83, 42);" id="green" onclick="changeImage('green')"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Quantity :
+                            </td>
+                            <td class="inc-dec">
+                                <button class="plus" id="inc" onclick="inc()">
+                                    +
+                                </button>
+                                <input type="button" value="0" class="btn-text" id="inp">
+                                <button class="minus" id="dec" onclick="dec()">
+                                    -
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+
+                </div>
+                <div class="buy">
+                    <button id="buynow">Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
