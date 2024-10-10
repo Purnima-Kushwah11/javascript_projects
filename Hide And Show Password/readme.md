@@ -7,7 +7,7 @@ This project demonstrates a **password visibility toggle** feature using **JavaS
 - **Responsive Design**: The form adjusts for different screen sizes using HTML, CSS, and JavaScript.
 - **Secure Input**: The password remains secure while switching between visibility states.
 
-### [Hide and Show password](https://hide-show-password11.netlify.app)
+### Live Link : [Hide and Show password](https://hide-show-password11.netlify.app)
 
 Try it out by visiting the live demo link!
 
